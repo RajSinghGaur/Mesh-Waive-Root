@@ -58,7 +58,7 @@ static esp_netif_t *netif_sta = NULL;
  *                Function Definitions
  *******************************************************/
 
-void tmps_waive()
+void tmps_waive()//waive root after 6 seconds of parent being connected, can change time if required by changing 'cnt' caparison from 6 to number of choice.
 {
     int cnt = 0;
     wifi_ap_record_t access_point_record;
@@ -78,7 +78,7 @@ void tmps_waive()
     vTaskDelete(NULL);
 }
 
-void root_chk()
+void root_chk()//Show root status
 {
     while (1)
     {
