@@ -1,0 +1,334 @@
+I (1652) mesh_main: <MESH_EVENT_MESH_STARTED>ID:77:77:77:77:77:77
+I (1652) mesh: <MESH_NWK_LOOK_FOR_NETWORK>need_scan:0x3, need_scan_router:0x0, look_for_nwk_count:1
+I (1652) mesh: (api)not connect, layer:-1, nwk_change_reason:1
+I am not groot.
+I (1662) wifi:(api)new network duty, type:request, update:0, nwk[duty:12, duration_mins:-1, rule:0, master(00:00:00:00:00:00)], root_nwk_duty:12, running:12
+
+I (1682) mesh_main: mesh starts successfully, heap:180520, root not fixed<0>(tree), ps:1
+
+I (1692) [MAIN]: END, FREE MEMORY : 180488 | MIN FREE HEAP MEMORY 178768
+I am not groot.
+I am not groot.
+I am not groot.
+I am not groot.
+I am not groot.
+I am not groot.
+I (8192) mesh: [S7]Timepass, f4:f5:db:96:ba:75, channel:1, rssi:-40
+I (8192) mesh: find router:[ssid_len:8]Timepass, rssi:-40, f4:f5:db:96:ba:75(encrypted), new channel:1, old channel:0
+I (8192) mesh: find root:ESPM_9D32E4, root_cap:1(max:300), new channel:1, old channel:0
+I (8202) mesh: [FIND][ch:0]AP:17, otherID:0, MAP:1, idle:0, candidate:0, root:1[f4:f5:db:96:ba:75]router found
+I (8212) mesh: [FIND:1]find a network, channel:1, cfg<channel:0, router:Timepass, 00:00:00:00:00:00>
+
+I (8222) wifi:mode : sta (3c:71:bf:9d:2d:bc) + softAP (3c:71:bf:9d:2d:bd)
+I (8222) mesh_main: <MESH_EVENT_FIND_NETWORK>new channel:1, router BSSID:00:00:00:00:00:00
+W (8242) wifi:<MESH AP>adjust channel:1, secondary channel offset:1(40U)
+I (8242) wifi:Total power save buffer number: 16
+I (8552) mesh: [SCAN][ch:1]AP:7, other(ID:0, RD:0), MAP:0, idle:0, candidate:1, root:0, topMAP:0[c:0,i:0][f4:f5:db:96:ba:75]router found<>
+I (8552) mesh: 1315[SCAN]init rc[3c:71:bf:9d:2d:bd,-36], mine:0, voter:0
+I (8562) mesh: 1353, vote myself, router rssi:-36 > voted rc_rssi:-120
+I (8562) mesh: [SCAN:1/10]rc[128][3c:71:bf:9d:2d:bd,-36], self[3c:71:bf:9d:2d:bc,-36,reason:0,votes:1,idle][mine:1,voter:1(1.00)percent:1.00][128,1,3c:71:bf:9d:2d:bd]
+
+I am not groot.
+I (8882) mesh: [SCAN][ch:1]AP:9, other(ID:0, RD:0), MAP:0, idle:0, candidate:1, root:0, topMAP:0[c:0,i:1][f4:f5:db:96:ba:75]router found<>
+I (8882) mesh: 1315[SCAN]init rc[3c:71:bf:9d:2d:bd,-36], mine:0, voter:0
+I (8892) mesh: [SCAN:2/10]rc[128][3c:71:bf:9d:2d:bd,-36], self[3c:71:bf:9d:2d:bc,-36,reason:0,votes:1,idle][mine:1,voter:1(1.00)percent:1.00][128,1,3c:71:bf:9d:2d:bd]
+
+I (9202) mesh: [SCAN][ch:1]AP:7, other(ID:0, RD:0), MAP:0, idle:0, candidate:1, root:0, topMAP:0[c:0,i:1][f4:f5:db:96:ba:75]router found<>
+I (9212) mesh: 1315[SCAN]init rc[3c:71:bf:9d:2d:bd,-58], mine:0, voter:0
+I (9212) mesh: [SCAN:3/10]rc[128][3c:71:bf:9d:2d:bd,-58], self[3c:71:bf:9d:2d:bc,-58,reason:0,votes:1,idle][mine:1,voter:1(1.00)percent:1.00][128,1,3c:71:bf:9d:2d:bd]
+
+I (9532) mesh: [SCAN][ch:1]AP:9, other(ID:0, RD:0), MAP:0, idle:0, candidate:1, root:0, topMAP:0[c:0,i:1][f4:f5:db:96:ba:75]router found<>
+I (9532) mesh: 1315[SCAN]init rc[3c:71:bf:9d:2d:bd,-35], mine:0, voter:0
+I (9542) mesh: [SCAN:4/10]rc[128][3c:71:bf:9d:2d:bd,-35], self[3c:71:bf:9d:2d:bc,-35,reason:0,votes:1,idle][mine:1,voter:1(1.00)percent:1.00][128,1,3c:71:bf:9d:2d:bd]
+
+I am not groot.
+I (9852) mesh: [SCAN][ch:1]AP:9, other(ID:0, RD:0), MAP:0, idle:0, candidate:1, root:0, topMAP:0[c:0,i:1][f4:f5:db:96:ba:75]router found<>
+I (9852) mesh: 1315[SCAN]init rc[3c:71:bf:9d:2d:bd,-36], mine:0, voter:0
+I (9862) mesh: [SCAN:5/10]rc[128][3c:71:bf:9d:2d:bd,-36], self[3c:71:bf:9d:2d:bc,-36,reason:0,votes:1,idle][mine:1,voter:1(1.00)percent:1.00][128,1,3c:71:bf:9d:2d:bd]
+
+I (10182) mesh: [SCAN][ch:1]AP:9, other(ID:0, RD:0), MAP:0, idle:0, candidate:1, root:0, topMAP:0[c:0,i:1][f4:f5:db:96:ba:75]router found<>
+I (10182) mesh: 1315[SCAN]init rc[3c:71:bf:9d:2d:bd,-38], mine:0, voter:0
+I (10192) mesh: [SCAN:6/10]rc[128][3c:71:bf:9d:2d:bd,-38], self[3c:71:bf:9d:2d:bc,-38,reason:0,votes:1,idle][mine:1,voter:1(1.00)percent:1.00][128,1,3c:71:bf:9d:2d:bd]
+
+I (10502) mesh: [SCAN][ch:1]AP:9, other(ID:0, RD:0), MAP:0, idle:0, candidate:1, root:0, topMAP:0[c:0,i:1][f4:f5:db:96:ba:75]router found<>
+I (10502) mesh: 1315[SCAN]init rc[3c:71:bf:9d:2d:bd,-35], mine:0, voter:0
+I (10512) mesh: [SCAN:7/10]rc[128][3c:71:bf:9d:2d:bd,-35], self[3c:71:bf:9d:2d:bc,-35,reason:0,votes:1,idle][mine:1,voter:1(1.00)percent:1.00][128,1,3c:71:bf:9d:2d:bd]
+
+I am not groot.
+I (10832) mesh: [SCAN][ch:1]AP:9, other(ID:0, RD:0), MAP:0, idle:0, candidate:1, root:0, topMAP:0[c:0,i:1][f4:f5:db:96:ba:75]router found<>
+I (10832) mesh: 1315[SCAN]init rc[3c:71:bf:9d:2d:bd,-37], mine:0, voter:0
+I (10842) mesh: [SCAN:8/10]rc[128][3c:71:bf:9d:2d:bd,-37], self[3c:71:bf:9d:2d:bc,-37,reason:0,votes:1,idle][mine:1,voter:1(1.00)percent:1.00][128,1,3c:71:bf:9d:2d:bd]
+
+I (11152) mesh: [SCAN][ch:1]AP:9, other(ID:0, RD:0), MAP:0, idle:0, candidate:1, root:0, topMAP:0[c:0,i:1][f4:f5:db:96:ba:75]router found<>
+I (11152) mesh: 1315[SCAN]init rc[3c:71:bf:9d:2d:bd,-39], mine:0, voter:0
+I (11162) mesh: [SCAN:9/10]rc[128][3c:71:bf:9d:2d:bd,-39], self[3c:71:bf:9d:2d:bc,-39,reason:0,votes:1,idle][mine:1,voter:1(1.00)percent:1.00][128,1,3c:71:bf:9d:2d:bd]
+
+I (11482) mesh: [SCAN][ch:1]AP:9, other(ID:0, RD:0), MAP:0, idle:0, candidate:1, root:0, topMAP:0[c:0,i:1][f4:f5:db:96:ba:75]router found<>
+I (11482) mesh: 1315[SCAN]init rc[3c:71:bf:9d:2d:bd,-38], mine:0, voter:0
+I (11492) mesh: [SCAN:10/13+x+]rc[128][3c:71:bf:9d:2d:bd,-38], self[3c:71:bf:9d:2d:bc,-38,reason:0,votes:1,idle][mine:1,voter:1(1.00)percent:1.00][128,1,3c:71:bf:9d:2d:bd]
+
+I am not groot.
+I (11802) mesh: [SCAN][ch:1]AP:8, other(ID:0, RD:0), MAP:0, idle:0, candidate:1, root:0, topMAP:0[c:0,i:1][f4:f5:db:96:ba:75]router found<>
+I (11802) mesh: 1315[SCAN]init rc[3c:71:bf:9d:2d:bd,-38], mine:0, voter:0
+I (11812) mesh: [SCAN:11/13+x+]rc[128][3c:71:bf:9d:2d:bd,-38], self[3c:71:bf:9d:2d:bc,-38,reason:0,votes:1,idle][mine:1,voter:1(1.00)percent:1.00][128,1,3c:71:bf:9d:2d:bd]
+
+I (12132) mesh: [SCAN][ch:1]AP:8, other(ID:0, RD:0), MAP:0, idle:0, candidate:1, root:0, topMAP:0[c:0,i:1][f4:f5:db:96:ba:75]router found<>
+I (12132) mesh: 1315[SCAN]init rc[3c:71:bf:9d:2d:bd,-37], mine:0, voter:0
+I (12142) mesh: [SCAN:12/13+x+]rc[128][3c:71:bf:9d:2d:bd,-37], self[3c:71:bf:9d:2d:bc,-37,reason:0,votes:1,idle][mine:1,voter:1(1.00)percent:1.00][128,1,3c:71:bf:9d:2d:bd]
+
+I (12452) mesh: [SCAN][ch:1]AP:9, other(ID:0, RD:0), MAP:0, idle:0, candidate:1, root:0, topMAP:0[c:0,i:1][f4:f5:db:96:ba:75]router found<>
+I (12462) mesh: 1315[SCAN]init rc[3c:71:bf:9d:2d:bd,-40], mine:0, voter:0
+I (12462) mesh: [SCAN:13/13+x+]rc[128][3c:71:bf:9d:2d:bd,-40], self[3c:71:bf:9d:2d:bc,-40,reason:0,votes:1,idle][mine:1,voter:1(1.00)percent:1.00][128,1,3c:71:bf:9d:2d:bd]
+
+I (12482) mesh: [scan]new scanning time:600ms, beacon interval:500ms
+I (12492) mesh: [DONE]connect to router:Timepass, channel:1, rssi:-40, f4:f5:db:96:ba:75[layer:0, assoc:0], my_vote_num:1/voter_num:1, rc[3c:71:bf:9d:2d:bd/-40/1]
+I (12642) wifi:new:<1,1>, old:<1,1>, ap:<1,1>, sta:<1,0>, prof:1
+I (12642) wifi:state: init -> auth (b0)
+I (12652) wifi:state: auth -> assoc (0)
+I (12662) wifi:state: assoc -> run (10)
+I am groot.
+I (12742) wifi:connected with Timepass, aid = 4, channel 1, BW20, bssid = f4:f5:db:96:ba:75
+I (12742) wifi:security: WPA2-PSK, phy: bgn, rssi: -37
+I (12752) wifi:Set ps type: 0
+
+I (12752) mesh: (api)layer:1, nwk_change_reason:2
+I (12752) wifi:(api)set master, type:request|master, update:1, nwk[duty:12, duration_mins:-1, rule:0, master(3c:71:bf:9d:2d:bd)], root_nwk_duty:12
+
+I (12772) wifi:(api)new network duty, type:request|master, update:1, nwk[duty:12, duration_mins:-1, rule:0, master(3c:71:bf:9d:2d:bd)], root_nwk_duty:12, running:100
+
+I (12792) mesh: <nvs>write layer:1
+I (12792) mesh: <flush>upstream packets, connections(max):6, waiting:0, upQ:0
+I (12792) mesh_main: <MESH_EVENT_PARENT_CONNECTED>layer:0-->1, parent:f4:f5:db:96:ba:75<ROOT>, ID:77:77:77:77:77:77, duty:0
+I (12792) mesh: <flush>root
+I (12802) wifi:pm start, type: 0
+
+I (12812) mesh_main: <MESH_EVENT_TODS_REACHABLE>state:0
+I (12812) mesh: [TXQ]<max:128>up(0, be:0), down(0, be:0), mgmt:0, xon(req:0, rsp:0), bcast:0, wnd(0, parent:00:00:00:00:00:00)
+I (12812) mesh_main: <MESH_EVENT_ROOT_ADDRESS>root address:3c:71:bf:9d:2d:bd
+I (12832) mesh: [RXQ]<max:128 = cfg:128 + extra:0>self:0, <max:128 = cfg:128 + extra:0>tods:0
+I (12912) wifi:AP's beacon interval = 102400 us, DTIM period = 2
+I (13632) esp_netif_handlers: sta ip: 192.168.43.190, mask: 255.255.255.0, gw: 192.168.43.1
+I (13632) mesh_main: <IP_EVENT_STA_GOT_IP>IP:192.168.43.190
+I am groot.
+I am groot.
+I am groot.
+I (15752) wifi:new:<1,1>, old:<1,1>, ap:<1,1>, sta:<1,0>, prof:1
+I (15752) wifi:station: 3c:71:bf:9d:32:e4 join, AID=1, bgn, 40U
+I (15752) mesh_main: <MESH_EVENT_PS_CHILD_DUTY>cidx:0, 3c:71:bf:9d:32:e4, duty:12
+W (15822) mesh_main: <MESH_EVENT_ROUTING_TABLE_ADD>add 1, new:2, layer:1
+I (15822) mesh: <nvs>write assoc:1
+I (15822) mesh_main: <MESH_EVENT_CHILD_CONNECTED>aid:1, 3c:71:bf:9d:32:e4
+I am groot.
+I am groot.
+I am groot.
+Waive started
+I (19632) mesh: <MESH_NEW_ROOT_VOTE_START>percentage threshold:1.000000, attempts:15, reason:1<by root>[time:18609ms]
+I (19632) mesh_main: <MESH_EVENT_VOTE_STARTED>attempts:15, reason:1, rc_addr:00:00:00:00:00:00
+I am groot.
+I (20232) mesh: [VOTE][ch:1]AP:2, other(ID:0, RD:0), idle:0, mAP:2, root:0, [Layer:1][f4:f5:db:96:ba:75]router found[VOTING]
+I (20232) mesh: [VOTE:1]by root, vote[128][3c:71:bf:9d:2d:bd,-51], self[3c:71:bf:9d:2d:bc,-51,reason:1,votes:1,root][mine:1,voter:1(1.00)percent:1.00][128,1,3c:71:bf:9d:2d:bd]
+
+I am groot.
+I (20852) mesh: [VOTE][ch:1]AP:1, other(ID:0, RD:0), idle:0, mAP:1, root:0, [Layer:1][f4:f5:db:96:ba:75]router found[VOTING]
+I (20852) mesh: [VOTE:2]by root, vote[128][3c:71:bf:9d:2d:bd,-52], self[3c:71:bf:9d:2d:bc,-52,reason:1,votes:1,root][mine:1,voter:1(1.00)percent:1.00][128,1,3c:71:bf:9d:2d:bd]
+
+I (21472) mesh: [VOTE][ch:1]AP:2, other(ID:0, RD:0), idle:0, mAP:2, root:0, [Layer:1][f4:f5:db:96:ba:75]router found[VOTING]
+I (21472) mesh: [VOTE:3]by root, vote[127][3c:71:bf:9d:32:e5,-52], self[3c:71:bf:9d:2d:bc,-47,reason:1,votes:0,root][mine:0,voter:2(0.00)percent:1.00][127,1,3c:71:bf:9d:32:e5]
+
+I am groot.
+I (22092) mesh: [VOTE][ch:1]AP:2, other(ID:0, RD:0), idle:0, mAP:2, root:0, [Layer:1][f4:f5:db:96:ba:75]router found[VOTING]
+I (22092) mesh: [VOTE:4]by root, vote[127][3c:71:bf:9d:32:e5,-29], self[3c:71:bf:9d:2d:bc,-49,reason:1,votes:0,root][mine:0,voter:2(0.00)percent:1.00][127,1,3c:71:bf:9d:32:e5]
+
+I am groot.
+I (22702) mesh: [VOTE][ch:1]AP:2, other(ID:0, RD:0), idle:0, mAP:2, root:0, [Layer:1][f4:f5:db:96:ba:75]router found[VOTING]
+I (22712) mesh: [VOTE:5]by root, vote[127][3c:71:bf:9d:32:e5,-29], self[3c:71:bf:9d:2d:bc,-48,reason:1,votes:0,root][mine:0,voter:2(0.00)percent:1.00][127,2,3c:71:bf:9d:32:e5]
+
+I (23322) mesh: [VOTE][ch:1]AP:2, other(ID:0, RD:0), idle:0, mAP:2, root:0, [Layer:1][f4:f5:db:96:ba:75]router found[VOTING]
+I (23322) mesh: [VOTE:6]by root, vote[127][3c:71:bf:9d:32:e5,-29], self[3c:71:bf:9d:2d:bc,-48,reason:1,votes:0,root][mine:0,voter:2(0.00)percent:1.00][127,2,3c:71:bf:9d:32:e5]
+
+I am groot.
+I (23942) mesh: [VOTE][ch:1]AP:2, other(ID:0, RD:0), idle:0, mAP:2, root:0, [Layer:1][f4:f5:db:96:ba:75]router found[VOTING]
+I (23942) mesh: [VOTE:7]by root, vote[127][3c:71:bf:9d:32:e5,-28], self[3c:71:bf:9d:2d:bc,-48,reason:1,votes:0,root][mine:0,voter:2(0.00)percent:1.00][127,2,3c:71:bf:9d:32:e5]
+
+I (24562) mesh: [VOTE][ch:1]AP:2, other(ID:0, RD:0), idle:0, mAP:2, root:0, [Layer:1][f4:f5:db:96:ba:75]router found[VOTING]
+I (24562) mesh: [VOTE:8]by root, vote[127][3c:71:bf:9d:32:e5,-29], self[3c:71:bf:9d:2d:bc,-51,reason:1,votes:0,root][mine:0,voter:2(0.00)percent:1.00][127,2,3c:71:bf:9d:32:e5]
+
+I am groot.
+I (25182) mesh: [VOTE][ch:1]AP:2, other(ID:0, RD:0), idle:0, mAP:2, root:0, [Layer:1][f4:f5:db:96:ba:75]router found[VOTING]
+I (25182) mesh: [VOTE:9]by root, vote[127][3c:71:bf:9d:32:e5,-28], self[3c:71:bf:9d:2d:bc,-51,reason:1,votes:0,root][mine:0,voter:2(0.00)percent:1.00][127,2,3c:71:bf:9d:32:e5]
+
+I am groot.
+I (25792) mesh: [VOTE][ch:1]AP:2, other(ID:0, RD:0), idle:0, mAP:2, root:0, [Layer:1][f4:f5:db:96:ba:75]router found[VOTING]
+I (25802) mesh: [VOTE:10]by root, vote[127][3c:71:bf:9d:32:e5,-29], self[3c:71:bf:9d:2d:bc,-50,reason:1,votes:0,root][mine:0,voter:2(0.00)percent:1.00][127,2,3c:71:bf:9d:32:e5]
+
+I (26412) mesh: [VOTE][ch:1]AP:2, other(ID:0, RD:0), idle:0, mAP:2, root:0, [Layer:1][f4:f5:db:96:ba:75]router found[VOTING]
+I (26412) mesh: [VOTE:11]by root, vote[127][3c:71:bf:9d:32:e5,-29], self[3c:71:bf:9d:2d:bc,-51,reason:1,votes:0,root][mine:0,voter:2(0.00)percent:1.00][127,2,3c:71:bf:9d:32:e5]
+
+I am groot.
+I (27032) mesh: [VOTE][ch:1]AP:2, other(ID:0, RD:0), idle:0, mAP:2, root:0, [Layer:1][f4:f5:db:96:ba:75]router found[VOTING]
+I (27032) mesh: [VOTE:12]by root, vote[127][3c:71:bf:9d:32:e5,-29], self[3c:71:bf:9d:2d:bc,-50,reason:1,votes:0,root][mine:0,voter:2(0.00)percent:1.00][127,2,3c:71:bf:9d:32:e5]
+
+I (27652) mesh: [VOTE][ch:1]AP:2, other(ID:0, RD:0), idle:0, mAP:2, root:0, [Layer:1][f4:f5:db:96:ba:75]router found[VOTING]
+I (27652) mesh: [VOTE:13]by root, vote[127][3c:71:bf:9d:32:e5,-29], self[3c:71:bf:9d:2d:bc,-51,reason:1,votes:0,root][mine:0,voter:2(0.00)percent:1.00][127,2,3c:71:bf:9d:32:e5]
+
+I am groot.
+I (28272) mesh: [VOTE][ch:1]AP:2, other(ID:0, RD:0), idle:0, mAP:2, root:0, [Layer:1][f4:f5:db:96:ba:75]router found[VOTING]
+I (28272) mesh: [VOTE:14]by root, vote[127][3c:71:bf:9d:32:e5,-29], self[3c:71:bf:9d:2d:bc,-74,reason:1,votes:0,root][mine:0,voter:2(0.00)percent:1.00][127,2,3c:71:bf:9d:32:e5]
+
+I am groot.
+I (28892) mesh: [VOTE][ch:1]AP:2, other(ID:0, RD:0), idle:0, mAP:2, root:0, [Layer:1][f4:f5:db:96:ba:75]router found[VOTING]
+I (28892) mesh: [VOTE:15]by root, vote[127][3c:71:bf:9d:32:e5,-28], self[3c:71:bf:9d:2d:bc,-51,reason:1,votes:0,root][mine:0,voter:2(0.00)percent:1.00][127,2,3c:71:bf:9d:32:e5]
+
+I (28902) mesh: <MESH_NEW_ROOT_VOTE_DONE>reason:reach max times, s_vote_scan_times:15
+I (28912) mesh_main: <MESH_EVENT_VOTE_STOPPED>
+I (29352) mesh: 2426<layer:1>xmit MESH_PKT_ROOT_SWITCH_ACK to 3c:71:bf:9d:32:e4
+I (29352) mesh: <MESH_NEW_ROOT_SWITCH_REQ>new root:3c:71:bf:9d:32:e4, reason:1
+I (29362) mesh: [waive]new root:3c:71:bf:9d:32:e4, cidx:0, sub_cidx:0[-1]
+I (29362) wifi:station: 3c:71:bf:9d:32:e4 leave, AID = 1, bss_flags is 134243, bss:0x3ffd4934
+I (29372) wifi:new:<1,0>, old:<1,1>, ap:<1,1>, sta:<1,0>, prof:1
+I (29382) mesh: [waive]looking for a new parent, [L:1]try layer:2
+I (29382) wifi:state: run -> init (0)
+I (29392) wifi:pm stop, total sleep time: 0 us / 16577039 us
+
+I (29392) wifi:(mesh)pm stop, sleep:0 secs, total:15 secs, current active set:12, running:0.00
+I (29402) wifi:new:<1,0>, old:<1,0>, ap:<1,1>, sta:<1,0>, prof:1
+I (29472) wifi:(master)rmv_child_num:1, (0)3c:71:bf:9d:32:e5, (master)3c:71:bf:9d:2d:bd
+I (29472) mesh_main: <MESH_EVENT_ROOT_SWITCH_REQ>reason:1, rc_addr:3c:71:bf:9d:32:e4
+I (29472) mesh_main: <MESH_EVENT_CHILD_DISCONNECTED>aid:1, 3c:71:bf:9d:32:e4
+I (29472) mesh: <nvs>write assoc:0
+I (29492) mesh_main: <MESH_EVENT_PARENT_DISCONNECTED>reason:8
+I (29492) mesh: [wifi]disconnected reason:8(assoc leave), continuous:1/max:12, non-root, vote(,stopped)<><>
+I am not groot.
+I (30102) mesh: [SCAN][ch:1]AP:8, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (30112) mesh: [FAIL][1]root:0, fail:1, normal:0, <pre>backoff:0
+
+I am not groot.
+I (30712) mesh: [SCAN][ch:1]AP:9, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (30712) mesh: [FAIL][2]root:0, fail:2, normal:0, <pre>backoff:0
+
+I (31322) mesh: [SCAN][ch:1]AP:8, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (31322) mesh: [FAIL][3]root:0, fail:3, normal:0, <pre>backoff:0
+
+I (31452) mesh: [SCAN][ch:1]AP:7, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (31452) mesh: [FAIL][4]root:0, fail:4, normal:0, <pre>backoff:0
+
+I am not groot.
+I (32062) mesh: [SCAN][ch:1]AP:8, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (32062) mesh: [FAIL][5]root:0, fail:5, normal:0, <pre>backoff:0
+
+I am not groot.
+I (32672) mesh: [SCAN][ch:1]AP:8, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (32672) mesh: [FAIL][6]root:0, fail:6, normal:0, <pre>backoff:0
+
+I (32802) mesh: [SCAN][ch:1]AP:8, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (32802) mesh: [FAIL][7]root:0, fail:7, normal:0, <pre>backoff:0
+
+I (33412) mesh: [SCAN][ch:1]AP:9, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (33412) mesh: [FAIL][8]root:0, fail:8, normal:0, <pre>backoff:0
+
+I am not groot.
+I (34022) mesh: [SCAN][ch:1]AP:8, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (34022) mesh: [FAIL][9]root:0, fail:9, normal:0, <pre>backoff:0
+
+I (34152) mesh: [SCAN][ch:1]AP:7, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (34152) mesh: [FAIL][10]root:0, fail:10, normal:0, <pre>backoff:0
+
+I am not groot.
+I (34762) mesh: [SCAN][ch:1]AP:9, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (34762) mesh: [FAIL][11]root:0, fail:11, normal:0, <pre>backoff:0
+
+I (35372) mesh: [SCAN][ch:1]AP:9, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (35372) mesh: [FAIL][12]root:0, fail:12, normal:0, <pre>backoff:0
+
+I (35502) mesh: [SCAN][ch:1]AP:7, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (35502) mesh: [FAIL][13]root:0, fail:13, normal:0, <pre>backoff:0
+
+I am not groot.
+I (36112) mesh: [SCAN][ch:1]AP:9, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (36112) mesh: [FAIL][14]root:0, fail:14, normal:0, <pre>backoff:0
+
+I am not groot.
+I (36722) mesh: [SCAN][ch:1]AP:9, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (36722) mesh: [FAIL][15]root:0, fail:15, normal:0, <pre>backoff:0
+
+I (36852) mesh: [SCAN][ch:1]AP:9, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (36852) mesh: [FAIL][16]root:0, fail:16, normal:0, <pre>backoff:0
+
+I (37452) mesh: [SCAN][ch:1]AP:9, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (37462) mesh: [FAIL][17]root:0, fail:17, normal:0, <pre>backoff:0
+
+I am not groot.
+I (38062) mesh: [SCAN][ch:1]AP:9, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (38072) mesh: [FAIL][18]root:0, fail:18, normal:0, <pre>backoff:0
+
+I (38192) mesh: [SCAN][ch:1]AP:7, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (38202) mesh: [FAIL][19]root:0, fail:19, normal:0, <pre>backoff:0
+
+I am not groot.
+I (38802) mesh: [SCAN][ch:1]AP:9, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (38802) mesh: [FAIL][20]root:0, fail:20, normal:0, <pre>backoff:0
+
+I (39412) mesh: [SCAN][ch:1]AP:8, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (39412) mesh: [FAIL][21]root:0, fail:21, normal:0, <pre>backoff:0
+
+I (39542) mesh: [SCAN][ch:1]AP:9, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (39542) mesh: [FAIL][22]root:0, fail:22, normal:0, <pre>backoff:0
+
+I am not groot.
+I (40152) mesh: [SCAN][ch:1]AP:10, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (40152) mesh: [FAIL][23]root:0, fail:23, normal:0, <pre>backoff:0
+
+I am not groot.
+I (40762) mesh: [SCAN][ch:1]AP:9, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (40762) mesh: [FAIL][24]root:0, fail:24, normal:0, <pre>backoff:0
+
+I (40892) mesh: [SCAN][ch:1]AP:7, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (40892) mesh: [FAIL][25]root:0, fail:25, normal:0, <pre>backoff:0
+
+I (41502) mesh: [SCAN][ch:1]AP:9, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (41502) mesh: [FAIL][26]root:0, fail:26, normal:0, <pre>backoff:0
+
+I am not groot.
+I (42112) mesh: [SCAN][ch:1]AP:9, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (42112) mesh: [FAIL][27]root:0, fail:27, normal:0, <pre>backoff:0
+
+I (42242) mesh: [SCAN][ch:1]AP:7, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (42242) mesh: [FAIL][28]root:0, fail:28, normal:0, <pre>backoff:0
+
+I am not groot.
+I (42852) mesh: [SCAN][ch:1]AP:9, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (42852) mesh: [FAIL][29]root:0, fail:29, normal:0, <pre>backoff:0
+
+I (43462) mesh: [SCAN][ch:1]AP:10, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (43462) mesh: [FAIL][30]root:0, fail:30, normal:0, <pre>backoff:0
+
+I (43592) mesh: [SCAN][ch:1]AP:9, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (43592) mesh: [FAIL][31]root:0, fail:31, normal:0, <pre>backoff:0
+
+I am not groot.
+I (44202) mesh: [SCAN][ch:1]AP:9, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:1,i:1][f4:f5:db:96:ba:75]router found<>
+I (44202) mesh: [FAIL][32]root:0, fail:32, normal:0, <pre>backoff:0
+
+I (44212) mesh: <MESH_NWK_PARENT_SELECTION>channel<cfg:0> is allowed to switch, do a full channel scan
+I (44222) wifi:mode : sta (3c:71:bf:9d:2d:bc)
+I (44222) mesh: <MESH_NWK_LOOK_FOR_NETWORK>need_scan:0x3, need_scan_router:0x0, look_for_nwk_count:1
+I (44222) mesh_main: <MESH_EVENT_NETWORK_STATE>is_rootless:1
+I am not groot.
+I am not groot.
+I am not groot.
+I am not groot.
+I am not groot.
+I am not groot.
+I am not groot.
+I (50732) mesh: [S1]Timepass, f4:f5:db:96:ba:75, channel:1, rssi:-50
+I (50732) mesh: find router:[ssid_len:8]Timepass, rssi:-50, f4:f5:db:96:ba:75(encrypted), new channel:1, old channel:0
+I (50742) mesh: [FIND][ch:0]AP:17, otherID:0, MAP:0, idle:0, candidate:0, root:0[f4:f5:db:96:ba:75]router found
+I (50752) mesh: [FIND:1]find a network, channel:1, cfg<channel:0, router:Timepass, 00:00:00:00:00:00>
+
+I (50762) wifi:mode : sta (3c:71:bf:9d:2d:bc) + softAP (3c:71:bf:9d:2d:bd)
+I (50762) mesh_main: <MESH_EVENT_FIND_NETWORK>new channel:1, router BSSID:00:00:00:00:00:00
+W (50782) wifi:<MESH AP>adjust channel:1, secondary channel offset:1(40U)
+I (50782) wifi:Total power save buffer number: 16
+I (51392) mesh: [SCAN][ch:1]AP:9, other(ID:0, RD:0), MAP:0, idle:0, candidate:0, root:0, topMAP:0[c:0,i:0][f4:f5:db:96:ba:75]router found<>
+I (51392) mesh: [FAIL][33]root:0, fail:33, normal:0, <pre>backoff:0
+
